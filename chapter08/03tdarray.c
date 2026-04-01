@@ -5,8 +5,10 @@
 
 int main(void)
 {
+	//이차원 배열선언
     int td[ROWSIZE][COLSIZE];
 
+	//이차원 배열원소에 값 저장
     td[0][0] = 1;
     td[0][1] = 2;
     td[0][2] = 3;
@@ -23,7 +25,7 @@ int main(void)
         {
             printf("td[%d][%d] == %d ", i, j, td[i][j]);
         }
-        printf("\n");
+        printf("\n");// 행마다 한 줄 출력 후 다음 줄로 이동
     }
 
     return 0;
